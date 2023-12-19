@@ -37,7 +37,7 @@ nav ul{
         color: black;
 
         :hover{
-            color:rgb(204, 197, 197);
+            color:blue;
         }
     }
 
@@ -77,14 +77,22 @@ nav ul{
         flex-direction: column;
         padding:50px;
         height: 100%;
+        margin-top: 10px;
         
 
         p{
             margin-top: 20px;
-            font-size:2vw;
+            font-size:2.3vw;
         }
     }
-    img{
-        
+    
+}
+
+@media (max-width:520px){
+    .conteudo{
+        width:65%;
+        p{
+            font-size: 3vw;
+        }
     }
 }

@@ -37,7 +37,7 @@ nav ul a {
   color: black;
 }
 nav ul a :hover {
-  color: rgb(204, 197, 197);
+  color: blue;
 }
 
 .conteudo {
@@ -71,9 +71,18 @@ nav ul a :hover {
     flex-direction: column;
     padding: 50px;
     height: 100%;
+    margin-top: 10px;
   }
   .conteudo p {
     margin-top: 20px;
-    font-size: 2vw;
+    font-size: 2.3vw;
+  }
+}
+@media (max-width: 520px) {
+  .conteudo {
+    width: 65%;
+  }
+  .conteudo p {
+    font-size: 3vw;
   }
 }/*# sourceMappingURL=style.css.map */
