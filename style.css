@@ -73,6 +73,9 @@ nav ul a :hover {
     height: 100%;
     margin-top: 10px;
   }
+  .conteudo h2 {
+    font-size: 3vw;
+  }
   .conteudo p {
     margin-top: 20px;
     font-size: 2.3vw;
@@ -81,6 +84,8 @@ nav ul a :hover {
 @media (max-width: 520px) {
   .conteudo {
     width: 65%;
+    height: 500px;
+    margin-top: 10%;
   }
   .conteudo p {
     font-size: 3vw;
