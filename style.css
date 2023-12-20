@@ -47,7 +47,7 @@ nav ul a :hover {
   text-align: center;
   align-items: center;
   font-size: 1.5vw;
-  height: 600px;
+  height: 80vh;
   border-bottom: 1px solid rgb(204, 197, 197);
 }
 .conteudo img {
@@ -84,10 +84,13 @@ nav ul a :hover {
 @media (max-width: 520px) {
   .conteudo {
     width: 65%;
-    height: 500px;
+    height: 40vh;
     margin-top: 10%;
   }
   .conteudo p {
     font-size: 3vw;
+  }
+  #home {
+    margin-top: 60px;
   }
 }/*# sourceMappingURL=style.css.map */
